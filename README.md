@@ -1,71 +1,91 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19804464&assignment_repo_type=AssignmentRepo)
-# React.js and Tailwind CSS Assignment
+🚀 TaskFlow – React Task Manager
+TaskFlow is a modern, fully responsive React app built with TypeScript and Tailwind CSS. It combines elegant UI with powerful functionality including local task management and external API data exploration.
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+🔗 Live Demo: [Deployed on Vercel](https://task-flow1.vercel.app/)
+Week 3 Assignment – React, JSX & Tailwind CSS
 
-## Assignment Overview
+🌟 Key Features
+✅ Task Management
+Create, complete, delete, search, and filter tasks
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+Persistent local storage
 
-## Getting Started
+Visual task statistics dashboard
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+🔌 API Explorer
+Fetch users/posts from JSONPlaceholder
 
-## Files Included
+Search, paginate, and handle loading/errors
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+Stylish responsive card UI
 
-## Requirements
+🎨 UI/UX Highlights
+Light/dark mode with persistence
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+Mobile-first responsive design
 
-## Project Structure
+Reusable UI components and smooth animations
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+🛠️ Tech Stack
+React 18 + TypeScript
 
-## Submission
+Tailwind CSS + Shadcn UI + Lucide Icons
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+React Query + React Router
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+Vite (blazing fast dev/build)
 
-## Resources
+🧱 Project Structure Highlights
+Modular components (TaskManager, ApiExplorer, Layout)
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+Custom hooks (useTheme, useLocalStorage)
+
+Multi-page setup via React Router
+
+Strong typing with full TypeScript support
+
+🚀 Getting Started
+bash
+Copy
+Edit
+git clone <your-repo>
+cd taskflow-app
+npm install
+npm run dev
+🔧 Start coding at http://localhost:8080
+
+🎯 Educational Goals Achieved
+Modern component architecture & routing
+
+Effective state & theme management
+
+Real API integration with UX feedback
+
+Tailwind CSS mastery and accessibility
+
+Production-ready folder structure and deployment
+
+Screenshots
+Home Page
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a89dc845-3ecd-4cbf-b5c0-2905dbbcc152" />
+Taks Page
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/da648517-6fa7-4edc-8bb5-f5166443a981" />
+API Exploerer
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e7515728-4554-4f9a-b05f-105b6274de37" />
+
+📦 Deployment
+Easily deployed via:
+
+✅ Vercel
+
+Netlify
+
+GitHub Pages
+
+📄 License
+MIT License
+
+Made with ❤️ for learning & growth
+“React + TypeScript + Tailwind done right.”
+
+Let me know if you’d like a one-line meta description or a social preview card too!
